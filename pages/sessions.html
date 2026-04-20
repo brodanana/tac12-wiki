@@ -3,70 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sessions & Pricing - TAC12 Wiki</title>
+    <title>Sessions & Pricing | TAC12</title>
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
-    <header>
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="../index.html" class="nav-logo">
+                <span class="nav-logo-icon">🎯</span>
+                TAC12
+            </a>
+            <div class="nav-links">
+                <a href="../index.html" class="nav-link">Home</a>
+                <a href="competition.html" class="nav-link">Competition</a>
+                <a href="sessions.html" class="nav-link active">Sessions</a>
+                <a href="location.html" class="nav-link">Location</a>
+                <a href="equipment.html" class="nav-link">Equipment</a>
+                <a href="safety.html" class="nav-link">Safety</a>
+                <a href="membership.html" class="nav-link">Membership</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="page-content">
         <div class="container">
-            <h1>🏹 TAC12 Wiki</h1>
-            <p class="tagline">Tactical Airgun Challenge &lt;12 ft/lbs</p>
-            <nav>
+            <nav class="breadcrumb">
                 <a href="../index.html">Home</a>
-                <a href="competition.html">Competition Format</a>
-                <a href="sessions.html">Sessions & Pricing</a>
-                <a href="location.html">Location</a>
-                <a href="equipment.html">Equipment</a>
-                <a href="safety.html">Safety</a>
-                <a href="membership.html">Membership</a>
+                <span>/</span>
+                <span>Sessions & Pricing</span>
             </nav>
+
+            <div class="page-header">
+                <h1 class="page-title">Sessions & Pricing</h1>
+                <p class="page-subtitle">Weekly sessions - no booking required</p>
+            </div>
+
+            <div class="content-block">
+                <h3>Weekly Sessions</h3>
+                <div class="table-wrapper">
+                    <table>
+                        <tr>
+                            <th>Day</th>
+                            <th>Time</th>
+                            <th>Standard Price</th>
+                            <th>WFC Members</th>
+                        </tr>
+                        <tr>
+                            <td><strong>Thursday</strong></td>
+                            <td>17:00 - 21:00</td>
+                            <td>£10</td>
+                            <td>£5</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Sunday</strong></td>
+                            <td>12:00 - 17:00</td>
+                            <td>£10</td>
+                            <td>£5</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="alert" style="margin-top: 24px;">
+                    <div class="alert-title">✓ No Booking Required</div>
+                    <p>Just turn up - "there is enough space for everybody" according to Woodend Farm Complex.</p>
+                </div>
+            </div>
+
+            <div class="content-block">
+                <h3>Membership Benefits</h3>
+                <div class="card-grid">
+                    <div class="card">
+                        <div class="card-icon">💷</div>
+                        <h3 class="card-title">Half Price Sessions</h3>
+                        <p class="card-text">WFC members pay just £5 instead of £10 per session - that's 50% savings!</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">🎯</div>
+                        <h3 class="card-title">Double Time</h3>
+                        <p class="card-text">Get double the shooting time for the same price across all target sports at Woodend Farm Complex.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-block">
+                <h3>General Range Pricing</h3>
+                <p>Other target sports facilities at Woodend Farm Complex:</p>
+                <div class="table-wrapper" style="margin-top: 16px;">
+                    <table>
+                        <tr>
+                            <th>Activity</th>
+                            <th>Price</th>
+                            <th>Notes</th>
+                        </tr>
+                        <tr>
+                            <td>Target Sports (own equipment)</td>
+                            <td>£5/hour</td>
+                            <td>Booking required</td>
+                        </tr>
+                        <tr>
+                            <td>Airgun Range (rifle & pistol)</td>
+                            <td>Part of session</td>
+                            <td>Indoor & outdoor ranges</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
         </div>
-    </header>
+    </div>
 
-    <main class="container">
-        <nav class="breadcrumb">
-            <a href="../index.html">Home</a> &gt; Sessions & Pricing
-        </nav>
-
-        <div class="page-content">
-            <h2>Session Times & Pricing</h2>
-
-            <table>
-                <tr>
-                    <th>Day</th>
-                    <th>Time</th>
-                    <th>Price</th>
-                    <th>WFC Members</th>
-                </tr>
-                <tr>
-                    <td><strong>Thursday</strong></td>
-                    <td>17:00 - 21:00</td>
-                    <td>£10</td>
-                    <td>£5</td>
-                </tr>
-                <tr>
-                    <td><strong>Sunday</strong></td>
-                    <td>12:00 - 17:00</td>
-                    <td>£10</td>
-                    <td>£5</td>
-                </tr>
-            </table>
-
-            <h3>No Booking Required</h3>
-            <p>Sessions can run without booking - "there is enough space for everybody". Just turn up and enjoy!</p>
-
-            <h3>General Range Pricing</h3>
-            <p>For other target sports at Woodend Farm Complex:</p>
-            <ul>
-                <li><strong>£5/hour</strong> with own equipment (booking required)</li>
-            </ul>
-        </div>
-    </main>
-
-    <footer>
+    <footer class="footer">
         <div class="container">
-            <p>TAC12 Wiki | Woodend Farm Complex | <a href="https://woodendfarmcomplex.co.uk">woodendfarmcomplex.co.uk</a></p>
-            <p>Contact: enquiries@woodendfarmcomplex.co.uk | Tel: 01623 550544 | Mobile: 07807 503335</p>
+            <div class="footer-bottom">
+                <p>&copy; 2026 TAC12. Tactical Airgun Challenge at Woodend Farm Complex.</p>
+            </div>
         </div>
     </footer>
 </body>

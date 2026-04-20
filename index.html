@@ -3,85 +3,170 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TAC12 Wiki - Tactical Airgun Challenge</title>
-    <link rel="stylesheet" href="../css/styles.css">
+    <title>TAC12 - Tactical Airgun Challenge | Home</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>🏹 TAC12 Wiki</h1>
-            <p class="tagline">Tactical Airgun Challenge &lt;12 ft/lbs</p>
-            <nav>
-                <a href="../index.html">Home</a>
-                <a href="competition.html">Competition Format</a>
-                <a href="sessions.html">Sessions & Pricing</a>
-                <a href="location.html">Location</a>
-                <a href="equipment.html">Equipment</a>
-                <a href="safety.html">Safety</a>
-                <a href="membership.html">Membership</a>
-            </nav>
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="index.html" class="nav-logo">
+                <span class="nav-logo-icon">🎯</span>
+                TAC12
+            </a>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link active">Home</a>
+                <a href="pages/competition.html" class="nav-link">Competition</a>
+                <a href="pages/sessions.html" class="nav-link">Sessions</a>
+                <a href="pages/location.html" class="nav-link">Location</a>
+                <a href="pages/equipment.html" class="nav-link">Equipment</a>
+                <a href="pages/safety.html" class="nav-link">Safety</a>
+                <a href="pages/membership.html" class="nav-link">Membership</a>
+            </div>
         </div>
-    </header>
+    </nav>
 
-    <main class="container">
-        <section class="hero">
-            <h2>Welcome to TAC12</h2>
-            <p>Tactical Airgun Challenge (TAC12) is a PRS (Precision Rifle Series) style precision shooting format adapted for the UK power limit of under 12 ft/lbs PCP Air Rifles. Running since November 2024 at Woodend Farm Complex.</p>
-        </section>
+    <section class="hero">
+        <div class="container hero-content">
+            <span class="hero-badge">UK's Premier PCP Precision Series</span>
+            <h1 class="hero-title">Tactical Airgun<br>Challenge</h1>
+            <p class="hero-subtitle">PRS-style precision shooting for <12 ft/lbs PCP Air Rifles. Launched November 2024 at Woodend Farm Complex, Nottinghamshire.</p>
+            <div class="hero-cta">
+                <a href="pages/competition.html" class="btn btn-primary">Competition Format</a>
+                <a href="pages/sessions.html" class="btn btn-secondary">View Sessions</a>
+            </div>
+        </div>
+    </section>
 
-        <section class="highlights">
-            <div class="card">
-                <h3>🎯 Competition Format</h3>
-                <p>PRS style stages with multiple props, gongs at all distances, and time limits. Distances from 20m to 90m.</p>
-                <a href="competition.html">Learn More →</a>
-            </div>
-            <div class="card">
-                <h3>⏰ Session Times</h3>
-                <p><strong>Thursday:</strong> 17:00 - 21:00<br>
-                <strong>Sunday:</strong> 12:00 - 17:00</p>
-                <a href="sessions.html">View Pricing →</a>
-            </div>
-            <div class="card">
-                <h3>📍 Location</h3>
-                <p>Woodend Farm Complex<br>Chesterfield Road, Huthwaite<br>Nottinghamshire, NG17 2QJ</p>
-                <a href="location.html">Get Directions →</a>
-            </div>
-        </section>
-
-        <section class="info-grid">
-            <div class="info-box">
-                <h3>Requirements to Join</h3>
-                <ul>
-                    <li>PCP Airgun, magazine fed (at least 10 shots)</li>
-                    <li>Telescopic optic (ideally FFP, but not essential)</li>
-                    <li>1.5mil group size ability</li>
-                </ul>
-            </div>
-            <div class="info-box">
-                <h3>2026 Sponsors</h3>
-                <ul>
-                    <li>FX Airguns</li>
-                    <li>Element Optics</li>
-                    <li>Hills Pumps</li>
-                    <li>Celtic Precision</li>
-                </ul>
-            </div>
-        </section>
-
-        <section class="social-section">
-            <h3>Connect With Us</h3>
-            <div class="social-links">
-                <a href="https://www.facebook.com/WoodendFarmComp" target="_blank" class="social-btn facebook">Facebook</a>
-                <a href="https://www.instagram.com/woodendfarmcomp" target="_blank" class="social-btn instagram">Instagram</a>
-            </div>
-            <p>Competition sign-up via: <a href="https://competitions.ultimateballistics.com" target="_blank">competitions.ultimateballistics.com</a></p>
-        </section>
-    </main>
-
-    <footer>
+    <section class="section">
         <div class="container">
-            <p>TAC12 Wiki | Woodend Farm Complex | <a href="https://woodendfarmcomplex.co.uk">woodendfarmcomplex.co.uk</a></p>
-            <p>Contact: enquiries@woodendfarmcomplex.co.uk | Tel: 01623 550544 | Mobile: 07807 503335</p>
+            <div class="section-header">
+                <h2 class="section-title">What is <span>TAC12</span>?</h2>
+                <p class="section-subtitle">Precision Rifle Series adapted for the UK power limit. Shoot 20m to 90m in timed stages against props and gongs.</p>
+            </div>
+            <div class="card-grid">
+                <div class="card">
+                    <div class="card-icon">🎯</div>
+                    <h3 class="card-title">PRS Style Competition</h3>
+                    <p class="card-text">Multi-prop stages with gongs at varying distances. Time limits add challenge to your precision shooting.</p>
+                    <a href="pages/competition.html" class="card-link">Competition Rules</a>
+                </div>
+                <div class="card">
+                    <div class="card-icon">⏰</div>
+                    <h3 class="card-title">Weekly Sessions</h3>
+                    <p class="card-text">Thursday evenings (17:00-21:00) and Sunday afternoons (12:00-17:00). No booking required.</p>
+                    <a href="pages/sessions.html" class="card-link">Session Times</a>
+                </div>
+                <div class="card">
+                    <div class="card-icon">📍</div>
+                    <h3 class="card-title">Woodend Farm Complex</h3>
+                    <p class="card-text">10 minutes from M1 J28. 8 outdoor lanes at 50m plus 6 indoor lanes at 20m. Full facilities.</p>
+                    <a href="pages/location.html" class="card-link">Find Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" style="background: var(--secondary);">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Entry <span>Requirements</span></h2>
+                <p class="section-subtitle">Everything you need to compete at TAC12</p>
+            </div>
+            <div class="info-grid">
+                <div class="info-box">
+                    <h3>🎖️ Equipment</h3>
+                    <ul>
+                        <li>PCP Airgun, magazine fed (10+ shots)</li>
+                        <li>Telescopic optic (FFP preferred)</li>
+                        <li>Modern <12 ft/lbs PCP capable of 90m</li>
+                        <li>.22 cal or .177 cal</li>
+                    </ul>
+                </div>
+                <div class="info-box">
+                    <h3>📊 Ability</h3>
+                    <ul>
+                        <li>1.5 mil group size ability</li>
+                        <li>Comfortable with timed stages</li>
+                        <li>Multiple shooting positions</li>
+                        <li>Ready to compete</li>
+                    </ul>
+                </div>
+                <div class="info-box">
+                    <h3>📋 Rules</h3>
+                    <ul>
+                        <li>PRS stages require mag-fed PCP</li>
+                        <li>Springers welcome for training</li>
+                        <li>Under 18s must have guardian</li>
+                        <li>Follow all safety protocols</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="sponsor-bar">
+        <div class="container">
+            <p class="sponsor-title">2026 Competition Sponsors</p>
+            <div class="sponsor-logos">
+                <span class="sponsor-logo">FX Airguns</span>
+                <span class="sponsor-logo">Element Optics</span>
+                <span class="sponsor-logo">Hills Pumps</span>
+                <span class="sponsor-logo">Celtic Precision</span>
+            </div>
+        </div>
+    </div>
+
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Join the <span>Community</span></h2>
+                <p class="section-subtitle">Connect with TAC12 shooters across the UK</p>
+            </div>
+            <div class="card-grid">
+                <div class="card">
+                    <div class="card-icon">📱</div>
+                    <h3 class="card-title">Follow Us</h3>
+                    <p class="card-text">Stay updated with latest events, results, and announcements.</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/WoodendFarmComp" target="_blank" class="social-link">📘</a>
+                        <a href="https://www.instagram.com/woodendfarmcomp" target="_blank" class="social-link">📷</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🏆</div>
+                    <h3 class="card-title">Competitions</h3>
+                    <p class="card-text">Two major competitions planned for 2026. Sign up via Ultimate Ballistics.</p>
+                    <a href="https://competitions.ultimateballistics.com" target="_blank" class="card-link">Register Now</a>
+                </div>
+                <div class="card">
+                    <div class="card-icon">👥</div>
+                    <h3 class="card-title">Membership</h3>
+                    <p class="card-text">Join Woodend Farm Complex for double the time at half the price across all target sports.</p>
+                    <a href="pages/membership.html" class="card-link">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>TAC12</h4>
+                    <p>Tactical Airgun Challenge for <12 ft/lbs PCP Air Rifles. A PRS-style precision shooting format.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <p>Woodend Farm Complex<br>Chesterfield Road, Huthwaite<br>Nottinghamshire, NG17 2QJ<br><br>enquiries@woodendfarmcomplex.co.uk<br>01623 550544</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <p><a href="pages/competition.html">Competition Format</a><br><a href="pages/sessions.html">Sessions & Pricing</a><br><a href="pages/location.html">Location & Facilities</a><br><a href="pages/safety.html">Safety Protocols</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 TAC12. Tactical Airgun Challenge at Woodend Farm Complex.</p>
+            </div>
         </div>
     </footer>
 </body>

@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Barlow+Condensed:wght@400;500;600;700&display=swap');
 
 :root {
-    --primary: #0a0a0a;
-    --secondary: #1a1a1a;
-    --surface: #252525;
-    --accent: #ff6b00;
-    --accent-light: #ff8c33;
-    --accent-dark: #cc5500;
-    --text: #f0f0f0;
-    --text-muted: #a0a0a0;
-    --border: #333333;
-    --success: #22c55e;
+    --primary: #002E2C;
+    --secondary: #0A0A0A;
+    --surface: #182317;
+    --accent: #BFFF00;
+    --accent-light: #C7FF38;
+    --accent-dark: #A7F000;
+    --accent-secondary: #E55812;
+    --text: #FFFFFF;
+    --text-muted: #D9DDD6;
+    --border: #3E5F11;
+    --success: #BFFF00;
 }
 
 * {
@@ -124,7 +125,7 @@ a:hover {
 
 .hero {
     padding: 140px 0 80px;
-    background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+    background: linear-gradient(135deg, var(--secondary) 0%, var(--primary) 100%);
     position: relative;
     overflow: hidden;
 }
@@ -137,8 +138,8 @@ a:hover {
     right: 0;
     bottom: 0;
     background: 
-        radial-gradient(circle at 20% 80%, rgba(255, 107, 0, 0.1) 0%, transparent 50%),
-        radial-gradient(circle at 80% 20%, rgba(255, 107, 0, 0.05) 0%, transparent 50%);
+        radial-gradient(circle at 20% 80%, rgba(191, 255, 0, 0.15) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, rgba(191, 255, 0, 0.08) 0%, transparent 50%);
     pointer-events: none;
 }
 
